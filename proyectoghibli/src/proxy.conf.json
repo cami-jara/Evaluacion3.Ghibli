@@ -1,0 +1,10 @@
+{
+    "/api/*":{
+        "target":"http://ghibliapi.herokuapp.com/films",
+        "secure": false,
+        "pathRewrite":{
+            "^":""
+        },
+        "changeOrigin":true
+    }
+}
