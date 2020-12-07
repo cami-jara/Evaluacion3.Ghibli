@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute} from '@angular/router';
 import { FilmService } from '../services/film.service';
 
 @Component({
@@ -7,7 +7,8 @@ import { FilmService } from '../services/film.service';
   templateUrl: './film.component.html',
   styleUrls: ['./film.component.scss']
 })
-  
+
+
 export class FilmComponent implements OnInit {
   id: any;
   film: any;
@@ -33,4 +34,3 @@ export class FilmComponent implements OnInit {
   }
 
 }
-

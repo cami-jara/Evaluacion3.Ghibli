@@ -1,21 +1,23 @@
-<nav class="navbar has-shadow pt-3" id="subnav">
+<img src="/assets/img/portada.png" alt="">
+<h1 class="ghibli">Studio Ghibli (スタジオジブリ, Sutajio Jiburi) </h1>
+<br><br><br><br><br><br>
+<nav class="navbar has-shadow pt-3" id="subnav" style="background-color:#1367A3;">
     <div class="container">
         <div class="navbar-end ">
-            <a routerLink="/home">
-               <p>⬅ Volver atrás</p> 
-            </a>
+          <button><a routerLink="/home">      
+           Volver atrás </a></button>
+           
         </div>
     </div>
 </nav>
-<body>
-   
-<section id="parallax-2" class="hero is-medium">
+<body style="background-color: #000000;">
+<section class="hero is-medium">
     <div class="hero-body">
       <div class="container">
         <div class="columns">
           <div class="column is-6">
-            <h1 class="title is-1 is-white title1">Detalle de Pelicula</h1>
-            <hr class="content-divider">
+            <h1 class="title is-1 is-white title1">Descripción de la Película</h1>
+            <hr class="hr">
             
             
           </div>
@@ -28,15 +30,15 @@
     <div class="container container1"> 
         <div class="columns">
             <div class="column is-four-fifths">
-        <p class="title is-4">{{nombre}}</p>
+        <p class="text-white">{{nombre}}</p>
 
-        <p > Director: <strong>{{director}}</strong></p>
+        <p class="text-white"> Director: <b>{{director}}</b></p>
         <br>
         
-        <p>{{description}}</p>
+        <p class="text-white">{{description}}</p>
         <br>
-        <p>{{realease_date}}</p>
-        <p> Puntuación: <u>{{rt_score}}</u> </p>
+        <p class="text-white">{{realease_date}}</p>
+        <p class="text-white"> Puntuación: <u>{{rt_score}}</u></p>
     </div>
 </div>
 </div>
